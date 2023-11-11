@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: antiquewhite;
+        margin: 0px;
+    }
+    header {
+         background-color: bisque;
+         padding: 10px;
+         margin: 10px;
+    }
+    h1{
+        box-shadow:  2px 1px 14px 6px rgba(0, 0, 0, 0.452);
+    }
+    nav{
+        background-color: rgb(211, 168, 157);
+        box-shadow:1px 3px 8px rgba(0, 0, 0, 0.329);
+
+    }
+    main {
+          background-color: rgb(224, 209, 221);
+          padding: 10px;
+          margin: 10px;
+          border-radius: 20px;
+          box-shadow: 01px 02px 02px black;
+    }
+    article{
+        background-color: rgb(238, 171, 227);
+        padding: 5px
+    }
+    article > aside {
+background-color: antiquewhite;
+    }
+    footer{
+       background-color: black;
+       color:rgb(236, 179, 179);
+       text-align: center;
+       padding: 4px;
+    }
+    footer > p {
+          margin: 0px;
+    }
+    div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: rgb(133, 178, 214);
+        border-radius: 50%;
+    }
+    </style>
+    <header>
+        
+    </header>
+</head>
+<body>
+    <div></div>
+    <span></span>
+</body>
+
+<header>
+     <h1> Meu site</h1>
+     <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>  
+     </nav>
+</header>
+<main>
+    <section id="Assuntos">
+
+    </section>
+    <section id="Notícias">
+<article>
+    <h2>Video Game</h2>
+    <p>O que falar sobre jogos de videogame?
+        O hábito de jogar video game é adotado por 38% da população brasileira,
+         segundo dados de uma pesquisa lançada pelo Brasil Game Show em 2020.
+          Os jogos eletrônicos podem trazer inúmeros benefícios à saúde física 
+          e mental dos jogadores, e, hoje em dia, auxiliam até mesmo no aprendizado de crianças mais novas.</p>
+    <aside>
+        <p>Escrito por Diego José da Silva</p>
+    </aside>
+</article>
+    </section>
+</main>
+<footer>
+     <p>Desenvolvido por Laryssa Horst</p>
+</footer>
+<div id="bola"></div>
+</html>

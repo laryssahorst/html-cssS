@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+em html é id = em css é *
+em html é class= em css é .
+serquilha=*
+*/
+
+body{
+   background-color: rgb(236, 190, 236);
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: rgb(234, 250, 16);
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(243, 227, 10);
+color: rgb(210, 255, 12);
+}
+
+h2 {
+    color: rgb(161, 0, 35);
+}
+
+.basico {
+    color: rgb(110, 110, 223);
+    font-weight: bold;
+}
+.intermediario {
+color: blue;
+}
+.avancado {
+color: rgb(106, 106, 153);
+}
+.destaque {
+    background-color: rgba(49, 173, 173, 0.333);
+    
+}
